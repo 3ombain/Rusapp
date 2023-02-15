@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <title>registration_1</title>
+</head>
+
+<body>
+    
+    <section class="content_wrap">
+        
+        <header class="header">
+            <a class = "images" href="#">
+                <img src="img/logo1.png" class="logo">
+            </a>
+            <h1 class="header_txt">Регистрация установочного центра</h1>
+        </header>
+
+        <section class="reg_wrap">
+            <div class="reg">
+                <form>
+                    <p>Эл. почта</p>
+                    <input class="form-input" id="txt-input" type="text" placeholder="force@adresseemail.com" required>    
+                    <p>Номер телефона</p>
+                    <input class="form-input" id="txt-input" type="text" placeholder="+7 (495) 544 55 44" required> 
+                    <p>Пароль</p> 
+                    <span class="pwd_show">
+                        <input class="form-input" type="password" placeholder="********************" id="pwd"  name="password" required>   
+                           <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye"></i>
+                    </span>
+                    <p>Повторите пароль</p>
+                    <span class="pwd_show">
+                        <input class="form-input" type="password" placeholder="********************" id="pwd2"  name="password" required>   
+                            <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye2"></i>
+                    </span>
+                    <p>Введите ИНН вашей организации</p>
+                    <input class="form-input" id="txt-input" type="text" required>  
+                        <br>
+                        <input id="check" type="checkbox">
+                        <label for="check">Я соглашаюсь с <a class="rule_txt" href="#">правилами работы сервиса Русассистанс</a></label>
+                    <button type="submit"> Зарегистрироваться </button>
+                </form>
+                <p class="access_txt">Требуется восстановить доступ?&nbsp;<a href="#"> Восстановить доступ</a></p>
+            </div>
+        </section>
+
+    </section>
+
+    <section class="footer_wrap">
+        <footer class="footer">
+            <p class="footer_txt">ООО Русассистанс 2023</p>
+            <a href="#" class="btn"> Перейти на официальный сайт </a>
+        </footer>
+    </section>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
+
